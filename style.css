@@ -6,9 +6,19 @@ h1 {
 
 
  body{
-    background: #b0abb4;
+ 
     font-family: 'Montserrat', sans-serif;
-    color: #563b5a;
+    color: #563b5a;    
+      content: "";
+      background-image: url('https://blog.bibleclipart.net/wp-content/uploads/2016/10/children-playing-outdoor-background-700x350.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 5;
+      z-index: -100;
  }
   #contenedor{
      width: 900px;
@@ -18,14 +28,28 @@ h1 {
      inset: 0;
      margin: auto;
      }
- #calculadora{
-     background: rgb(224, 184, 184);
+  #calcular{
+    background: rgb(220,240,240);
+    background: linear-gradient(0deg, rgba(220,240,240,1) 10%, rgba(32,163,201,0.76234243697479) 100%);
+    width: 50%;
+    height: 50%;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #382b44;
+    margin-bottom: 20px;
+    margin-top: 15px;
+   
+ }
+  #calculadora{
+    background: rgb(220,240,240);
+    background: linear-gradient(0deg, rgba(220,240,240,1) 10%, rgba(32,163,201,0.76234243697479) 100%);
      width: 50%;
      height: 100%;
      float: left;
      }
  #detalle{
-     background: #88273e;
+    background: rgb(220,240,240);
+    background: linear-gradient(0deg, rgba(220,240,240,1) 10%, rgba(32,163,201,0.76234243697479) 100%);
      width: 50%;
      height: 100%;
      float: left;
@@ -43,8 +67,8 @@ h1 {
       font-weight: bold;
       padding: 12px 45px;
       border-radius: 30px;
-      background-color: #eb5d7e;
-      border: 1px solid #da4b6c;
+      background-color: #466dc2;
+      border: 1px solid #4b78da;
       color: #FFFFFF;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -57,9 +81,10 @@ h1 {
      }
     
      .resultado{
-        color: #0A81D1;
+        color: #3d5a6d;
         font-weight: bold;
         font-size: 25px;
         margin-bottom: 5px;
         display: none;
     }
+    
